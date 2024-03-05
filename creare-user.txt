@@ -1,0 +1,5 @@
+CREATE USER 'smarthomescene'@'localhost' IDENTIFIED BY 'password';
+
+GRANT ALL ON . TO 'smarthomescene'@'localhost' IDENTIFIED BY 'password' WITH GRANT OPTION;
+
+FLUSH PRIVILEGES;
