@@ -1,0 +1,1 @@
+alter table (name table) add column (add column) (type data);
